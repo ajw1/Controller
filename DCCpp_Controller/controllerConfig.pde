@@ -295,7 +295,8 @@
 
     throttleA=new Throttle(tAx,tAy,1.3);
     
-    cab2004 = new CabButton(tAx-125,tAy-150,50,30,150,15,2004,throttleA);
+    //cab2004 = new CabButton(tAx-125,tAy-150,50,30,150,15,2004,throttleA);
+    cab2004 = new CabButton(tAx-125,tAy-150,50,30,150,15,71,throttleA);
     cab2004.setThrottleDefaults(100,50,-50,-45);
     cab2004.functionButtonWindow(220,59,70,340,backgroundColor,backgroundColor);
     cab2004.setFunction(35,15,60,22,60,10,0,"Headlight",ButtonType.NORMAL,CabFunction.F_LIGHT);
